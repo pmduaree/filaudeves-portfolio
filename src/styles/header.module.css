@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    text-decoration: none;
+    margin: 0 20px;
+    text-transform: uppercase;
+    color: #21232E;
+}
+
+.button:hover {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #5368E0;
+    color: #5368E0;
+}

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+body {
+    font-family: Muli, serif;
+}
+
+.selected {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #5368E0;
+    color: #5368E0;
+}
