@@ -1,0 +1,9 @@
+.container {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.container > * {
+    flex: 0 0 calc(50% - 40px);
+    margin: 10px;
+}

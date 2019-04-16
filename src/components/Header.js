@@ -16,6 +16,9 @@ const Header = () => (
         <Link className={style.button} to="about-me">
           About Me
         </Link>
+        <Link className={style.button} to="contact">
+          Contact
+        </Link>
       </div>
     </div>
   </header>

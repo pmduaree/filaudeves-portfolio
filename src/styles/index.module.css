@@ -1,7 +1,6 @@
 .greetingText {
     text-align: right;
     font-size: 30px;
-    letter-spacing: 0.1em;
     color: #21232E;
 }
 
@@ -11,4 +10,5 @@
 
 .imageContainer {
     margin-top: 20px;
+    width: 100%;
 }

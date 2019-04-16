@@ -3,15 +3,16 @@ import PropTypes from "prop-types"
 
 import Header from "./Header"
 import style from "../styles/layout.module.css"
+import '../styles/normalize.css'
+import '../styles/skeleton.css'
 import '../styles/main.css'
 
 const Layout = ({children}) => (
-  <div className={style.bodyMain}>
-    <Header/>
+  <div className={'container'}>
+    <Header className={'row'}/>
     <div className={style.container}>
       <main>{children}</main>
     </div>
-    {/*<Footer/>*/}
   </div>
 );
 

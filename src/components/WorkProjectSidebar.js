@@ -1,8 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import style from "../styles/workingProjectSidebar.module.css"
+import {PROJECT_TYPES} from "../data/projects";
 
-import {PROJECT_TYPES} from "../utils/portofolio_utils";
 
 const WorkProjectSidebar = (props) => {
 
@@ -15,11 +15,12 @@ const WorkProjectSidebar = (props) => {
       }
     });
   };
+
   return (
-    <div className={style.container}>
+    <div>
       {projectTypeDisplay().map((projectType, index) => {
-        return (<div className={style.projectType}>
-            <span onClick={() => props.setCurrentProjectType(projectType.name)} key={index} className={projectType.isSelected ? 'selected' : ''}> {projectType.display} </span>
+        return (<div className={style.projectType} key={index}>
+            <span onClick={() => props.setCurrentProjectType(projectType.name)} className={projectType.isSelected ? 'selected' : ''}> {projectType.display} </span>
         </div>)
       })}
     </div>
