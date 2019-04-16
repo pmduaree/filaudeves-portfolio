@@ -1,11 +1,17 @@
 import React from "react"
 
 import Layout from "../components/Layout"
+import style from "../styles/404.module.css";
 
 const NotFoundPage = () => (
   <Layout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <div className={'row'}>
+      <div className={'one column'}/>
+      <div className={'ten columns'}>
+        <h1 className={style.header}>404</h1>
+        <div className={style.subtitle}>Page not found</div>
+      </div>
+    </div>
   </Layout>
 )
 
