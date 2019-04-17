@@ -1,0 +1,49 @@
+.greetingImage {
+    width: 670px;
+    height: 460px;
+    float: right;
+}
+
+.greetingText {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.introductionText {
+    margin-top: 30px;
+}
+
+.moreInformation {
+    margin-top: 140px;
+}
+
+.space {
+    padding-top: 30px;
+}
+
+.titleText {
+    text-transform: uppercase;
+    color: #5368E0;
+    margin-bottom: 20px;
+}
+
+.arrowContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.arrowContainer img {
+    -webkit-animation: action 1s infinite  alternate;
+    animation: action 1s infinite  alternate;
+}
+@-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}

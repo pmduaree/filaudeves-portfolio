@@ -2,10 +2,9 @@ import React from "react"
 
 import Layout from "../components/Layout"
 
-const Contact = () => {
-
+const Contact = (props) => {
   return (
-    <Layout>
+    <Layout pathName={props.location.pathname}>
       Contact me!
     </Layout>
   )

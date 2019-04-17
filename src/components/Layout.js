@@ -7,17 +7,18 @@ import '../styles/normalize.css'
 import '../styles/skeleton.css'
 import '../styles/main.css'
 
-const Layout = ({children}) => (
+const Layout = (props) => (
   <div className={'container'}>
-    <Header className={'row'}/>
+    <Header className={'row'} pathName={props.pathName}/>
     <div className={style.container}>
-      <main>{children}</main>
+      <main>{props.children}</main>
     </div>
   </div>
 );
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  pathName: PropTypes.string
 };
 
 export default Layout
