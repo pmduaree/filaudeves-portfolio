@@ -1,0 +1,25 @@
+.mainTitle {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.mainSubtitle {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.greetingImage {
+    width: 670px;
+    height: 460px;
+    float: right;
+}
+
+.greetingText {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.space {
+    padding-top: 30px;
+}

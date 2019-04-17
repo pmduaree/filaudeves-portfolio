@@ -5,7 +5,7 @@ import retrospectivesImg from "../images/retrospectives.png";
 
 export const PROJECTS = [
   {
-    id: 'freshdesk-trello',
+    id: 'freshdesk-and-trello',
     name: 'Freshdesk + Trello APP',
     subtitle: 'Product Design',
     imageUrl: freshdeskTrelloImg,

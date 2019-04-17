@@ -1,0 +1,43 @@
+{
+  "id": "freshdesk-and-trello",
+  "title": "Freshdesk + Trello App",
+  "subtitle": "Product Design",
+  "greetingText": "Freshdesk Power-up is an integration that syncs Freshdesk and Trello to manage a more organized service desk.",
+  "role": "Lead Designer",
+  "platform": "Web app integration",
+  "tools": [
+    "Sketch",
+    "Invision"
+  ],
+  "detailsTitle": "Easily sync & prioritize support ticket",
+  "detailsText": "Collaboration on multidisciplinary teams may has some struggles, as work on different platforms. We build the Freshdesk power-up to keep custumer support teams linked with other teams on Trello. \n\nThe main goal was to understand the needs of the user to optimize the information showed in each platform.",
+  "detailsImageUrl": "../images/freshdesk-trello-details.jpg",
+  "contributionImageUrl": "../images/freshdesk-trello-contribution.jpg",
+  "contributionList": [
+    "Product planning from scratch",
+    "User Flow definition",
+    "Usability testing",
+    "GUI testing",
+    "Design new features",
+    "Brand identity and marketing collaterals",
+    "Mockup design: provide the Invision prototype and Sketch files"
+  ],
+  "carousels": [
+    {
+      "title": "Screens of Freshdesk Power-up",
+      "imagesUrl": [
+        "../images/fresdesk-carousel-1.jpg",
+        "../images/fresdesk-carousel-2.jpg",
+        "../images/fresdesk-carousel-3.jpg"
+      ]
+    },{
+      "title": "Screens of Trello app",
+      "imagesUrl": [
+        "../images/trello-carousel-1.jpg",
+        "../images/trello-carousel-2.jpg",
+        "../images/trello-carousel-3.jpg"
+      ]
+    }
+  ],
+  "meh": "test"
+}
