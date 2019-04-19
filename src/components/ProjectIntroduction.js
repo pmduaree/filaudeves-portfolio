@@ -1,13 +1,13 @@
 import React  from "react"
 import PropTypes from "prop-types"
-import style from "../styles/workIntroduction.module.css"
-import arrowSVG from "../resources/arrow.svg"
+import style from "../styles/projectIntroduction.module.css"
+import arrowSVG from "../resources/down-arrow.svg"
 
-const WorkIntroduction = ({greetingImage, greetingText, role, platform, tools}) => (
+const ProjectIntroduction = ({greetingImage, greetingText, role, platform, tools}) => (
   <>
   <div className={'row'}>
     <div className={'six columns'}>
-      <img className={style.greetingImage} src={greetingImage}/>
+      <img className={style.greetingImage} src={greetingImage.childImageSharp.fluid.src}/>
     </div>
     <div className={'six columns'}>
       <div className={['row', style.introductionText].join(' ')}>
@@ -40,7 +40,7 @@ const WorkIntroduction = ({greetingImage, greetingText, role, platform, tools}) 
   )
 ;
 
-WorkIntroduction.propTypes = {
+ProjectIntroduction.propTypes = {
   greetingImage: PropTypes.node.isRequired,
   greetingText: PropTypes.string.isRequired,
   role: PropTypes.string.isRequired,
@@ -48,4 +48,4 @@ WorkIntroduction.propTypes = {
   tools: PropTypes.array.isRequired,
 };
 
-export default WorkIntroduction;
+export default ProjectIntroduction;

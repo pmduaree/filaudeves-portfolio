@@ -1,18 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Filaudeves Portfolio`,
-    description: ``,
-    author: `@gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -26,12 +17,27 @@ module.exports = {
         display: `minimal-ui`,
       },
     },
-    "gatsby-transformer-json",
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-json`,
+    `gatsby-image`,
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "data",
         path: `${__dirname}/src/data`
+      }
+    }, {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "images",
+        path: `${__dirname}/src/images`
+      }
+    }, {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "resources",
+        path: `${__dirname}/src/resources`
       }
     }
   ],

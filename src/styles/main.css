@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 
-body, a {
+body, a, h1, h2, h4 {
     font-family: Muli, serif;
     font-size: 16px;
     letter-spacing: 0.1em;
@@ -8,7 +8,6 @@ body, a {
     text-decoration: none;
 }
 
-a:hover,
 .selected{
     text-decoration: none;
     padding-bottom: 3px;
@@ -19,4 +18,58 @@ a:hover,
 section {
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-image: url('../resources/right-arrow.svg');
+    list-style-position: outside;
+    padding-left: 25px;
+}
+
+li {
+    padding: 5px;
+}
+
+.image-gallery-left-nav, .image-gallery-right-nav {
+    padding-top: 0 !important;
+}
+
+.image-gallery-left-nav::before,
+.image-gallery-right-nav::before {
+    font-size: 60px;
+}
+
+.image-gallery-left-nav:hover::before,
+.image-gallery-right-nav:hover::before {
+    top: 0;
+    color: #5368E0 !important;
+    box-shadow: none !important;
+    font-size: 60px;
+}
+
+.image-gallery-bullet {
+    height: 12px;
+    box-shadow: none !important;
+    border: 1px solid #5368E0 !important;
+}
+
+.image-gallery-bullet.active {
+    background: #5368E0 !important;
 }

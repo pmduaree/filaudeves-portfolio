@@ -5,20 +5,16 @@ import style from "../styles/projectDetails.module.css"
 const ProjectDetails = ({detailsTitle, detailsText, detailsImage}) => (
     <>
       <div className={'row'}>
-        <div className={'one column'}/>
+        <div className={'one column'}>&nbsp;</div>
         <div className={'ten columns'}>
-          <div className={style.detailsTitle}>
-            {detailsTitle}
-          </div>
-          <div className={style.detailsText}>
-            {detailsText}
-          </div>
+          <h2>{detailsTitle}</h2>
+          <div className={style.detailsText} dangerouslySetInnerHTML={{__html: detailsText}}/>
         </div>
       </div>
       <div className={'row'}>
-        <div className={'two columns'}/>
+        <div className={'two columns'}>&nbsp;</div>
         <div className={'eight columns'}>
-          <img src={detailsImage}/>
+          <img className={style.detailsImage} src={detailsImage.childImageSharp.fluid.src}/>
         </div>
       </div>
     </>

@@ -8,5 +8,8 @@
 
 .projectType:hover {
   top: -5px;
+  text-decoration: none;
+  padding-bottom: 3px;
   border-bottom: 1px solid #5368E0;
+  color: #5368E0;
 }

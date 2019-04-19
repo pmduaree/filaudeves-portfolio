@@ -3,9 +3,8 @@ const path = require(`path`);
 
 exports.onCreateNode = ({node, getNode, actions}) => {
   const {createNodeField} = actions;
-  if (node.internal.type === "DataJson") {
+  if (node.internal.type === "DataJson" || node.internal.type === "File") {
     const slug = createFilePath({node, getNode, basePath: `pages`});
-    console.log(node);
     createNodeField({
       node,
       name: `slug`,
@@ -21,6 +20,13 @@ exports.createPages = ({graphql, actions}) => {
     allDataJson {
       edges {
         node {
+          greetingImage {
+            childImageSharp {
+              fluid {
+                src
+              }
+            }
+          }
           id
           title
           subtitle
@@ -30,12 +36,30 @@ exports.createPages = ({graphql, actions}) => {
           tools
           detailsTitle
           detailsText
-          detailsImageUrl
-          contributionImageUrl
+          detailsImage {
+            childImageSharp {
+              fluid {
+                src
+              }
+            }
+          }
           contributionList
+          contributionImage {
+            childImageSharp {
+              fluid {
+                src
+              }
+            }
+          }
           carousels {
             title
-            imagesUrl
+            images {
+              childImageSharp {
+                fluid {
+                  src
+                }
+              }
+            }
           }
         }
       }
@@ -46,7 +70,7 @@ exports.createPages = ({graphql, actions}) => {
     result.data.allDataJson.edges.forEach(({ node }) => {
       createPage({
         path: node.id,
-        component: path.resolve(`./src/templates/work-page.js`),
+        component: path.resolve(`./src/components/ProjectPage.js`),
         context: {
           workData: node
         },

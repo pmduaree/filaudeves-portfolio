@@ -14,3 +14,10 @@
     margin: 0 20px;
     text-transform: uppercase;
 }
+
+.anchor:hover {
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #5368E0;
+    color: #5368E0;
+}

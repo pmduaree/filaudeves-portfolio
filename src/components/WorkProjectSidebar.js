@@ -17,10 +17,13 @@ const WorkProjectSidebar = (props) => {
   };
 
   return (
-    <div className={style.projectTypes}>
+    <div>
       {projectTypeDisplay().map((projectType, index) => {
-        return (<div className={style.projectType} key={index}>
-            <a onClick={() => props.setCurrentProjectType(projectType.name)} className={projectType.isSelected ? 'selected' : ''}> {projectType.display} </a>
+        return (<div key={index}>
+            <a onClick={() => props.setCurrentProjectType(projectType.name)}
+               className={[style.projectType, projectType.isSelected ? 'selected' : ''].join(' ')}>
+              {projectType.display}
+            </a>
         </div>)
       })}
     </div>
