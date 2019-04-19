@@ -1,0 +1,33 @@
+{
+  "id": "stand-bot",
+  "title": "Stand-Bot",
+  "subtitle": "Product Design",
+  "greetingText": "Stand-Bot is a bot that helps you run stand-up meetings in Slack, and keep a record of your past stand-ups.",
+  "greetingImage": "../images/stand-bot-greeting.png",
+  "role": "UX/UI Designer",
+  "platform": "Slack app",
+  "tools": [
+    "Sketch",
+    "Invision",
+    "Adobe Cloud"
+  ],
+  "detailsTitle": "A bot on your team’s side",
+  "detailsText": "Be with a remote team can imply to work on a different time zone, and the stand-up meetings can be on a inadequate time, or in the stand-ups doesn’t keep a record of the session. Those are the main reasons we decided to build a bot that helps teams to organize better their meeting without any friction.",
+  "detailsImage": "../images/stand-bot-details.png",
+  "detailsText2": "",
+  "contributionImage": "../images/stand-bot-contribution.png",
+  "contributionList": [
+    "New features implementation",
+    "Usability testing",
+    "Brand identity and marketing collaterals",
+    "Mockup design: provide the Invision prototype and Sketch files"
+  ],
+  "carousels": [
+    {
+      "title": "Screens of Stand-Bot",
+      "images": [
+        "../images/stand-bot-carousel-0.png"
+      ]
+    }
+  ]
+}
