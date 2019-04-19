@@ -36,6 +36,7 @@ exports.createPages = ({graphql, actions}) => {
           tools
           detailsTitle
           detailsText
+          detailsText2
           detailsImage {
             childImageSharp {
               fluid {

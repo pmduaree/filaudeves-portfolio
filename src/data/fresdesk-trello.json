@@ -13,6 +13,7 @@
   "detailsTitle": "Easily sync & prioritize support ticket",
   "detailsText": "Collaboration on multidisciplinary teams may has some struggles, as work on different platforms. We build the Freshdesk power-up to keep custumer support teams linked with other teams on Trello. <br><br>The main goal was to understand the needs of the user to optimize the information showed in each platform.",
   "detailsImage": "../images/freshdesk-trello-details.png",
+  "detailsText2": "",
   "contributionImage": "../images/freshdesk-trello-contribution.png",
   "contributionList": [
     "Product planning from scratch",
@@ -27,6 +28,7 @@
     {
       "title": "Screens of Freshdesk Power-up",
       "images": [
+        "../images/freshdesk-carousel-0.png",
         "../images/freshdesk-carousel-1.png",
         "../images/freshdesk-carousel-2.png",
         "../images/freshdesk-carousel-3.png"
@@ -34,6 +36,7 @@
     },{
       "title": "Screens of Trello app",
       "images": [
+        "../images/trello-carousel-0.png",
         "../images/trello-carousel-1.png",
         "../images/trello-carousel-2.png",
         "../images/trello-carousel-3.png",

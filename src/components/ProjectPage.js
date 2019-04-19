@@ -29,6 +29,7 @@ const ProjectPage = (props) => {
           detailsTitle={workData.detailsTitle}
           detailsText={workData.detailsText}
           detailsImage={workData.detailsImage}
+          detailsText2={workData.detailsText2}
         />
       </section>
       <section>

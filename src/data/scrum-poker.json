@@ -1,0 +1,37 @@
+{
+  "id": "scrum-poker",
+  "title": "Scrum Poker",
+  "subtitle": "Product Design",
+  "greetingText": "Scrum Poker is a add-on for Jira and Confluence for estimate software development tasks playing a Planning Poker® game technique",
+  "greetingImage": "../images/scrum-poker-greeting.png",
+  "role": "UX/UI Designer",
+  "platform": "Web app integration",
+  "tools": [
+    "Sketch",
+    "Invision",
+    "Adobe Cloud"
+  ],
+  "detailsTitle": "Sprint planning sessions made easy",
+  "detailsText": "No more physical card set needed in your sprint planning sessions! Select your favorite card set, record your estimates, and play Planning Poker® in one app. ",
+  "detailsImage": "../images/scrum-poker-details.png",
+  "detailsText2": "I worked on the redesign and adaptation of the app, in also the addition of new features.",
+  "contributionImage": "../images/scrum-poker-contribution.png",
+  "contributionList": [
+    "User flow definition",
+    "Usability testing",
+    "GUI testing",
+    "Design new features",
+    "Brand identity and marketing collaterals",
+    "Mockup design: provide the Invision prototype and Sketch files"
+  ],
+  "carousels": [
+    {
+      "title": "Screens of Scrum Poker",
+      "images": [
+        "../images/scrum-poker-carousel-0.png",
+        "../images/scrum-poker-carousel-1.png",
+        "../images/scrum-poker-carousel-2.png"
+      ]
+    }
+  ]
+}
