@@ -1,0 +1,37 @@
+{
+  "id": "retrospectives",
+  "title": "Agile Retrospectives",
+  "subtitle": "Product Design",
+  "greetingText": "Agile Retrospectives is an add-on for Jira and Confluence to run interactive retrospectives sessions, create action items and keep history of your past sessions.",
+  "greetingImage": "../images/retrospectives-greeting.png",
+  "role": "UX/UI Designer",
+  "platform": "Web app integration",
+  "tools": [
+    "Sketch",
+    "Invision",
+    "Adobe Cloud"
+  ],
+  "detailsTitle": "Seamless retrospective experience",
+  "detailsText": "Work within a remote team can be challenging, that an opportunity area we found. Our goal it’s to build an app that could help remote teams on their retrospectives sessions in an easy way.",
+  "detailsImage": "../images/retrospectives-details.png",
+  "detailsText2": "",
+  "contributionImage": "../images/retrospectives-contribution.png",
+  "contributionList": [
+    "User flow definition",
+    "Usability testing",
+    "GUI testing",
+    "Design new features",
+    "Brand identity and marketing collaterals",
+    "Mockup design: provide the Invision prototype and Sketch files"
+  ],
+  "carousels": [
+    {
+      "title": "Screens of Agile Retrospectives",
+      "images": [
+        "../images/retrospectives-carousel-0.png",
+        "../images/retrospectives-carousel-1.png",
+        "../images/retrospectives-carousel-2.png"
+      ]
+    }
+  ]
+}
