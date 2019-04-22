@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import style from "../styles/workingProjectSidebar.module.css"
 import {PROJECT_TYPES} from "../data/projects";
 
-
 const WorkProjectSidebar = (props) => {
 
   const projectTypeDisplay = () => {
@@ -18,14 +17,14 @@ const WorkProjectSidebar = (props) => {
 
   return (
     <div>
-      {projectTypeDisplay().map((projectType, index) => {
-        return (<div key={index}>
-            <a onClick={() => props.setCurrentProjectType(projectType.name)}
-               className={[style.projectType, projectType.isSelected ? 'selected' : ''].join(' ')}>
-              {projectType.display}
-            </a>
-        </div>)
-      })}
+      {projectTypeDisplay().map((projectType, index) => (
+        <div key={index}>
+          <a onClick={() => props.setCurrentProjectType(projectType.name)}
+             className={[style.projectType, projectType.isSelected ? 'selected' : ''].join(' ')}>
+            {projectType.display}
+          </a>
+        </div>
+      ))}
     </div>
   )
 };

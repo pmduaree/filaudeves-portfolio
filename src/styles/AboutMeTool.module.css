@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    justify-content: stretch;
+    padding: 10px 20px;
+}
+
+.image {
+    padding: 0 20px;
+}

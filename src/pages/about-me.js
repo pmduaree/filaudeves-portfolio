@@ -2,6 +2,8 @@ import React from "react"
 
 import Layout from "../components/Layout"
 import AboutMeSidebar from "../components/AboutMeSidebar";
+import {SECTIONS} from "../data/aboutMeSections";
+import AboutMeSection from "../components/AboutMeSection";
 
 const AboutMePage = (props) => (
   <Layout pathName={props.location.pathname}>
@@ -10,7 +12,7 @@ const AboutMePage = (props) => (
         <AboutMeSidebar/>
       </div>
       <div className={'eight columns'}>
-        placeholder
+        <AboutMeSection section={SECTIONS.PROFILE}/>
       </div>
     </div>
   </Layout>

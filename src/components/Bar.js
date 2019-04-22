@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import style from '../styles/Bar.module.css'
 
-
 const Bar = (props) => {
   return (
     <div className={style.container}>
