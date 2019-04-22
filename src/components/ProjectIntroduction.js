@@ -17,15 +17,15 @@ const ProjectIntroduction = ({greetingImage, greetingText, role, platform, tools
       </div>
       <div className={['row', style.moreInformation].join(' ')}>
         <div className={'four columns'}>
-          <div className={style.titleText}>Role</div>
+          <h5>Role</h5>
           <div>{role}</div>
         </div>
         <div className={'four columns'}>
-          <div className={style.titleText}>Platform</div>
+          <h5>Platform</h5>
           <div>{platform}</div>
         </div>
         <div className={'four columns'}>
-          <div className={style.titleText}>Tools</div>
+          <h5>Tools</h5>
           {tools.map((tool, index) =>
             (<div key={index}>{tool}</div>)
           )}
