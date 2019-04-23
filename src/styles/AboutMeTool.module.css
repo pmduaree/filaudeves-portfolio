@@ -2,6 +2,8 @@
     display: flex;
     justify-content: stretch;
     padding: 10px 20px;
+    background-color: #F5F6F9;
+    border-radius: 5px;
 }
 
 .image {

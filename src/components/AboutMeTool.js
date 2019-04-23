@@ -5,11 +5,9 @@ import style from '../styles/AboutMeTool.module.css'
 
 const AboutMeTool = (props) => {
   return (
-    <div className={'six columns'}>
-      <div className={style.container}>
-        <img src={props.icon} className={style.image}/>
-        <Bar label={props.name} value={props.value}/>
-      </div>
+    <div className={style.container}>
+      <img src={props.icon} className={style.image}/>
+      <Bar label={props.name} value={props.value}/>
     </div>
   );
 };

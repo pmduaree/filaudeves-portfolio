@@ -7,6 +7,8 @@ const AboutMeSkills = () => {
       <div>
         <AboutMeTools/>
       </div>
+      <br/>
+      <br/>
       <div>
         <h2>Skills</h2>
         <ul>
@@ -18,7 +20,6 @@ const AboutMeSkills = () => {
           <li>Strong Visual Design Skills</li>
         </ul>
       </div>
-      <br/>
       <br/>
       <br/>
       <div>
