@@ -1,10 +1,11 @@
 import React, {useState} from "react"
 import PropTypes from 'prop-types';
 import {SECTIONS} from "../data/aboutMeSections";
+import style from '../styles/AboutMeSection.module.css'
 import AboutMeSectionHeader from "./AboutMeSectionHeader";
 import AboutMeProfile from "./AboutMeProfile";
-import style from '../styles/AboutMeSection.module.css'
 import AboutMeSkills from "./AboutMeSkills";
+import AboutMeStats from "./AboutMeStats";
 
 const AboutMeSection = (props) => {
   const [section, setSection] = useState(props.section);
@@ -15,6 +16,8 @@ const AboutMeSection = (props) => {
         return <AboutMeProfile/>;
       case SECTIONS.SKILLS:
         return <AboutMeSkills/>;
+      case SECTIONS.STATS:
+        return <AboutMeStats/>
     }
   };
 

@@ -2,6 +2,7 @@
     width: 670px;
     height: 460px;
     float: right;
+    box-shadow: 0 0 50px rgba(33, 35, 46, 0.1);
 }
 
 .greetingText {

@@ -3,7 +3,7 @@
   "title": "Stand-Bot",
   "subtitle": "Product Design",
   "greetingText": "Stand-Bot is a bot that helps you run stand-up meetings in Slack, and keep a record of your past stand-ups.",
-  "greetingImage": "../images/stand-bot-greeting.png",
+  "greetingImage": "../images/stand-bot-slack.gif",
   "role": "UX/UI Designer",
   "platform": "Slack app",
   "tools": [

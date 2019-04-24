@@ -9,6 +9,7 @@ import '../styles/main.css'
 
 const Layout = (props) => (
   <div className={'container'}>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"/>
     <Header className={'row'} pathName={props.pathName}/>
     <div className={style.container}>
       <main>{props.children}</main>

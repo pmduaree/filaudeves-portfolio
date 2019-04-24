@@ -80,3 +80,8 @@ li {
 .image-gallery-bullet.active {
     background: #5368E0 !important;
 }
+
+.apexcharts-datalabel {
+    width: 20px;
+    color: red;
+}

@@ -7,7 +7,7 @@ const ProjectIntroduction = ({greetingImage, greetingText, role, platform, tools
   <>
   <div className={'row'}>
     <div className={'six columns'}>
-      <img className={style.greetingImage} src={greetingImage.childImageSharp.fluid.src}/>
+      <img className={style.greetingImage} src={greetingImage.publicURL}/>
     </div>
     <div className={'six columns'}>
       <div className={['row', style.introductionText].join(' ')}>
