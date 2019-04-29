@@ -1,9 +1,9 @@
-import SketchImage from "../resources/sketchLogo.svg"
-import FigmaImage from "../resources/figmaLogo.svg"
-import InvisionImage from "../resources/invisionLogo.svg"
-import AdobeCloudImage from "../resources/adobeCloudLogo.svg"
-import OverflowImage from "../resources/overflowLogo.svg"
-import ZeplinImage from "../resources/zeplinLogo.svg"
+import SketchImage from "../resources/Logo-Sketch.svg"
+import FigmaImage from "../resources/Logo-Figma.svg"
+import InvisionImage from "../resources/Logo-Invision.svg"
+import AdobeCloudImage from "../resources/Logo-Adobe-Cloud.svg"
+import OverflowImage from "../resources/Logo-Overflow.svg"
+import ZeplinImage from "../resources/Logo-Zeplin.svg"
 
 export const TOOLS = [
   [

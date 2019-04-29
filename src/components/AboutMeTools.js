@@ -3,9 +3,7 @@ import {TOOLS} from "../data/tools";
 import AboutMeTool from "./AboutMeTool";
 import style from '../styles/AboutMeTools.module.css'
 
-
 const AboutMeTools = () => {
-
   return (
     <>
       <h2>Tools</h2>
