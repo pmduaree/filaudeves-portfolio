@@ -6,7 +6,7 @@ import {Link} from "gatsby"
 const ProjectCard = (props) => {
 
   return (
-    <Link to={props.id} className={style.container}>
+    <Link to={props.id} className={[style.container, 'six columns'].join(' ')}>
       <img className={style.image} src={props.imageUrl}/>
       <span className={style.information}>
           <div className={style.name}>{props.name}</div>

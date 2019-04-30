@@ -4,30 +4,37 @@ import style from "../styles/workProjects.module.css"
 
 import ProjectCard from "./ProjectCard";
 import {PROJECT_TYPES, PROJECTS} from "../data/projects";
+import {arrayIntoSectionsOfTwo} from "../../utils/utils";
 
 const WorkProjects = (props) => {
   const filterProjects = () => {
     const projects = PROJECTS;
 
+    let filteredProjects = [];
     const currentProjectType = props.currentProjectType;
     if (currentProjectType === PROJECT_TYPES.ALL_PROJECTS.name) {
-      return projects;
+      filteredProjects = projects;
     } else {
-      return projects.filter((project) => project.type === currentProjectType);
+      filteredProjects = projects.filter((project) => project.type === currentProjectType);
     }
+    return arrayIntoSectionsOfTwo(filteredProjects);
   };
 
   return (
     <div className={style.container}>
-      {filterProjects().map((project, index) => {
-        return <ProjectCard
-          key={index}
-          id={project.id}
-          name={project.name}
-          imageUrl={project.imageUrl}
-          subtitle={project.subtitle}
-        />
-      })}
+      {filterProjects().map((projectRow, rowIndex) => (
+        <div className={["row", style.projectRow].join(' ')} key={rowIndex}>
+          {projectRow.map((project, index) => (
+            <ProjectCard
+              key={index}
+              id={project.id}
+              name={project.name}
+              imageUrl={project.imageUrl}
+              subtitle={project.subtitle}
+            />
+          ))}
+        </div>
+      ))}
     </div>
   )
 };

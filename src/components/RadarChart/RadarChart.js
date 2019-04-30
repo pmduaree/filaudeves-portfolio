@@ -88,10 +88,9 @@ const RadarChart = ({data, labels}) => {
         dy={10 / 2}
         fill="#444"
         fontWeight="400"
-        style={{'text-align': 'right'}}
       >
         {twoLineText.map((lineText, lineTextIndex) => (
-          <tspan x={x} y={y + 30 * lineTextIndex}>{lineText}</tspan>
+          <tspan x={x} y={y + 30 * lineTextIndex} key={lineTextIndex}>{lineText}</tspan>
         ))}
       </text>
     )
