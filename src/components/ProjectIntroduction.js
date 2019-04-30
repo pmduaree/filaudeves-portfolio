@@ -41,7 +41,7 @@ const ProjectIntroduction = ({greetingImage, greetingText, role, platform, tools
 ;
 
 ProjectIntroduction.propTypes = {
-  greetingImage: PropTypes.node.isRequired,
+  greetingImage: PropTypes.object.isRequired,
   greetingText: PropTypes.string.isRequired,
   role: PropTypes.string.isRequired,
   platform: PropTypes.string.isRequired,

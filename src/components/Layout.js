@@ -3,8 +3,9 @@ import PropTypes from "prop-types"
 
 import Header from "./Header"
 import style from "../styles/layout.module.css"
-import '../styles/normalize.css'
 import '../styles/skeleton.css'
+import "react-image-gallery/styles/css/image-gallery.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import '../styles/main.css'
 
 const Layout = (props) => (

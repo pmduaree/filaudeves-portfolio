@@ -8,7 +8,7 @@ body, a, h1, h2, h4 {
     text-decoration: none;
 }
 
-.selected{
+.link-selected {
     text-decoration: none;
     padding-bottom: 3px;
     border-bottom: 1px solid #5368E0;
@@ -44,44 +44,33 @@ h5 {
     margin-bottom: 20px;
 }
 
-ul {
+.unordered-list {
     list-style-image: url('../resources/right-arrow.svg');
     list-style-position: outside;
     padding-left: 25px;
 }
 
-li {
+li:not(.slide) {
     padding: 5px;
 }
 
-.image-gallery-left-nav, .image-gallery-right-nav {
-    padding-top: 0 !important;
+.carousel .slide {
+    background: none !important;
 }
 
-.image-gallery-left-nav::before,
-.image-gallery-right-nav::before {
-    font-size: 60px;
+.carousel .control-arrow {
+    height: auto !important;
+    opacity: 1 !important;
 }
 
-.image-gallery-left-nav:hover::before,
-.image-gallery-right-nav:hover::before {
-    top: 0;
-    color: #5368E0 !important;
-    box-shadow: none !important;
-    font-size: 60px;
+.carousel .control-next.control-arrow:before {
+    border-left: 8px solid #5368E0 !important;
 }
 
-.image-gallery-bullet {
-    height: 12px;
-    box-shadow: none !important;
-    border: 1px solid #5368E0 !important;
+.carousel .control-prev.control-arrow:before {
+    border-right: 8px solid #5368E0 !important;
 }
 
-.image-gallery-bullet.active {
+.carousel .control-dots .dot {
     background: #5368E0 !important;
-}
-
-.apexcharts-datalabel {
-    width: 20px;
-    color: red;
 }

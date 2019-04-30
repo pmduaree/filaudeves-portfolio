@@ -14,7 +14,7 @@ const ProjectDetails = ({detailsTitle, detailsText, detailsImage, detailsText2})
       <div className={'row'}>
         <div className={'two columns'}>&nbsp;</div>
         <div className={'eight columns'}>
-          <img className={style.detailsImage} src={detailsImage.childImageSharp.fluid.src}/>
+          <img className={style.detailsImage} src={detailsImage.publicURL}/>
         </div>
       </div>
       <div className={'row'}>
@@ -30,7 +30,7 @@ const ProjectDetails = ({detailsTitle, detailsText, detailsImage, detailsText2})
 ProjectDetails.propTypes = {
   detailsTitle: PropTypes.string.isRequired,
   detailsText: PropTypes.string.isRequired,
-  detailsImage: PropTypes.node.isRequired,
+  detailsImage: PropTypes.object.isRequired,
   detailsText2: PropTypes.string
 };
 

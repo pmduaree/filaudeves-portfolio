@@ -6,7 +6,7 @@ import style from '../styles/header.module.css'
 const Header = (props) => {
   const pathName = props.pathName ? props.pathName.slice(1) : '';
 
-  const selectedClass = (pageName) => pathName === pageName ? 'selected' : '';
+  const selectedClass = (pageName) => pathName === pageName ? 'link-selected' : '';
 
   return (<header>
     <div className={style.header}>

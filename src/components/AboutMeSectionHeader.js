@@ -12,7 +12,7 @@ const AboutMeSectionHeader = (props) => {
           className={[style.section, 'three columns'].join(' ')}
           key={index}
         >
-          <a className={[style.text, props.section === section ? 'selected' : ''].join(' ')}> {section.name}</a>
+          <a className={[style.text, props.section === section ? 'link-selected' : ''].join(' ')}> {section.name}</a>
         </div>)
       )}
     </div>

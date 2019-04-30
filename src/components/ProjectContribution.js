@@ -5,11 +5,11 @@ import style from "../styles/projectContribution.module.css"
 const ProjectContribution = ({contributionImage, contributionList}) => (
   <div className={'row'}>
     <div className={'six columns'}>
-      <img className={style.contributionImage} src={contributionImage.childImageSharp.fluid.src}/>
+      <img className={style.contributionImage} src={contributionImage.publicURL}/>
     </div>
     <div className={'five columns'}>
       <h2>Contribution:</h2>
-      <ul>
+      <ul className={'unordered-list'}>
       {contributionList.map((contribution, index) => (
         <li key={index}>{contribution}</li>
       ))}
@@ -19,8 +19,8 @@ const ProjectContribution = ({contributionImage, contributionList}) => (
 );
 
 ProjectContribution.propTypes = {
-  contributionList: PropTypes.string.isRequired,
-  contributionImage: PropTypes.string.isRequired
+  contributionList: PropTypes.array.isRequired,
+  contributionImage: PropTypes.object.isRequired
 };
 
 export default ProjectContribution;

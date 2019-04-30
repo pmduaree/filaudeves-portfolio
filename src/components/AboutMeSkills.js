@@ -11,7 +11,7 @@ const AboutMeSkills = () => {
       <br/>
       <div>
         <h2>Skills</h2>
-        <ul>
+        <ul className={'unordered-list'}>
           <li>Cross-functional communication</li>
           <li>Produces and iterates on both low and high fidelity prototypes</li>
           <li>Validates before implementing new features</li>
@@ -24,7 +24,7 @@ const AboutMeSkills = () => {
       <br/>
       <div>
         <h2>User Research Tools</h2>
-        <ul>
+        <ul className={'unordered-list'}>
           <li>Usability Testing</li>
           <li>Open/Closed Card Sorting</li>
           <li>User Interviews</li>

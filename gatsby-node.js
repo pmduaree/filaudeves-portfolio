@@ -22,11 +22,6 @@ exports.createPages = ({graphql, actions}) => {
         node {
           greetingImage {
             publicURL
-            childImageSharp {
-              fluid {
-                src
-              }
-            }
           }
           id
           title
@@ -39,28 +34,16 @@ exports.createPages = ({graphql, actions}) => {
           detailsText
           detailsText2
           detailsImage {
-            childImageSharp {
-              fluid {
-                src
-              }
-            }
+            publicURL
           }
           contributionList
           contributionImage {
-            childImageSharp {
-              fluid {
-                src
-              }
-            }
+            publicURL
           }
           carousels {
             title
             images {
-              childImageSharp {
-                fluid {
-                  src
-                }
-              }
+              publicURL
             }
           }
         }
