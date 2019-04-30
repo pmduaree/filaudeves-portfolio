@@ -1,6 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import {Carousel} from "react-responsive-carousel";
+import "react-image-gallery/styles/css/image-gallery.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const ProjectCarousel = ({title, images}) => {
   return (

@@ -5,8 +5,8 @@ import AboutMeSidebar from "../components/AboutMeSidebar";
 import {SECTIONS} from "../data/aboutMeSections";
 import AboutMeSection from "../components/AboutMeSection";
 
-const AboutMePage = (props) => (
-  <Layout pathName={props.location.pathname}>
+const AboutMePage = () => (
+  <Layout selectedPage={'about-me'}>
     <div className={'row'}>
       <div className={'four columns'}>
         <AboutMeSidebar/>

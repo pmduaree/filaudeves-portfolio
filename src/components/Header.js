@@ -2,11 +2,10 @@ import { Link } from "gatsby"
 import React from "react"
 import logo from '../resources/logo.svg'
 import style from '../styles/header.module.css'
+import PropTypes from 'prop-types';
 
-const Header = (props) => {
-  const pathName = props.pathName ? props.pathName.slice(1) : '';
-
-  const selectedClass = (pageName) => pathName === pageName ? 'link-selected' : '';
+const Header = ({selectedPage}) => {
+  const selectedClass = (pageName) => selectedPage === pageName ? 'link-selected' : '';
 
   return (<header>
     <div className={style.header}>
@@ -26,6 +25,10 @@ const Header = (props) => {
       </div>
     </div>
   </header>)
+};
+
+Header.propTypes = {
+  selectedPage: PropTypes.string
 };
 
 export default Header

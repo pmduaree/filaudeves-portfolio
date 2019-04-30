@@ -5,11 +5,11 @@ import WorkProjectSidebar from "../components/WorkProjectSidebar";
 import WorkProjects from "../components/WorkProjects";
 import {PROJECT_TYPES} from "../data/projects";
 
-const WorkPage = (props) => {
+const WorkPage = () => {
   const [currentProjectType, setCurrentProjectType] = useState(PROJECT_TYPES.ALL_PROJECTS.name);
 
   return (
-    <Layout pathName={props.location.pathname}>
+    <Layout selectedPage={'work'}>
       <div className='row'>
         <div className={'two columns'}>
           <WorkProjectSidebar

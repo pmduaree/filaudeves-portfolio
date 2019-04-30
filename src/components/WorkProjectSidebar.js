@@ -19,10 +19,10 @@ const WorkProjectSidebar = (props) => {
     <div>
       {projectTypeDisplay().map((projectType, index) => (
         <div key={index}>
-          <a onClick={() => props.setCurrentProjectType(projectType.name)}
-             className={[style.projectType, projectType.isSelected ? 'selected' : ''].join(' ')}>
+          <div onClick={() => props.setCurrentProjectType(projectType.name)}
+             className={[style.projectType, projectType.isSelected ? 'link-selected' : ''].join(' ')}>
             {projectType.display}
-          </a>
+          </div>
         </div>
       ))}
     </div>
