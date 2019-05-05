@@ -12,7 +12,7 @@ const AboutMeProfile = () => {
       For her, understanding the user behaviors and pain points, is the key to gather actionable insight that would enhance the product usage experience.
       <br/>
       <br/>
-      She became passionate about UX by playing video games. For her, was amazing how on SNES games you didn’t have a tutorial and could learn patterns by the way you interact with the elements on the screen, and her goal is achieve the same philosophy on products.
+      She became passionate about UX by playing video games. She was amazed how on SNES games you didn’t have a tutorial and could learn patterns by the way you interact with the elements on the screen, and her goal is to achieve the same philosophy on products.
       <br/>
       <br/>
       <br/>

@@ -72,6 +72,7 @@ const RadarChart = ({data, labels}) => {
       fill="#5368E0"
       stroke="#5368E0"
       strokeWidth="0.7"
+      className={style.points}
     />
   );
 
