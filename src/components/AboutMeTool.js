@@ -7,7 +7,7 @@ const AboutMeTool = (props) => {
   return (
     <div className={style.container}>
       <img src={props.icon} className={style.image}/>
-      <Bar label={props.name} value={props.value}/>
+      <Bar label={props.name}/>
     </div>
   );
 };
@@ -16,6 +16,6 @@ AboutMeTool.propType = {
   name: PropTypes.string.isRequired,
   icon: PropTypes.node.isRequired,
   value: PropTypes.number.isRequired
-}
+};
 
 export default AboutMeTool;
