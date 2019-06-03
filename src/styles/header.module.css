@@ -1,23 +1,29 @@
 .header {
-    display: flex;
-    justify-content: space-between;
     margin: 0 auto;
     padding-top: 30px;
 }
 
-.anchors {
-    display: flex;
-    align-items: center;
-}
-
 .anchor {
-    margin: 0 20px;
-    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
 }
 
-.anchor:hover {
+.text {
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+}
+
+.text:hover {
     text-decoration: none;
     padding-bottom: 3px;
     border-bottom: 1px solid #5368E0;
     color: #5368E0;
+}
+
+@media screen and (max-width: 550px) {
+    .text {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }

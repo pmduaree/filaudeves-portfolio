@@ -5,12 +5,17 @@ import Header from "./Header"
 import style from "../styles/layout.module.css"
 import '../styles/skeleton.css'
 import '../styles/main.css'
+import '../styles/mainMobile.css'
 
 const Layout = ({children, selectedPage}) => (
   <div className={'container'}>
-    <Header className={'row'} selectedPage={selectedPage}/>
-    <div className={style.container}>
-      <main>{children}</main>
+    <div className={'row'}>
+      <div className={'twelve columns'}>
+        <Header selectedPage={selectedPage}/>
+        <div className={style.container}>
+          <main>{children}</main>
+        </div>
+      </div>
     </div>
   </div>
 );
