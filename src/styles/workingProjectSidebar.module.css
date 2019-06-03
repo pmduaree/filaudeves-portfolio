@@ -1,15 +1,25 @@
 .projectType {
-  text-transform: uppercase;
   margin: 20px 0;
-  cursor: pointer;
-  width: auto;
-  float: left;
 }
 
-.projectType:hover {
-  top: -5px;
+.text {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.text:hover {
   text-decoration: none;
-  padding-bottom: 3px;
   border-bottom: 1px solid #5368E0;
   color: #5368E0;
+}
+
+@media screen and (max-width: 550px) {
+  .projectType {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
 }
