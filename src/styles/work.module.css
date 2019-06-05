@@ -1,0 +1,11 @@
+@media screen and (max-width: 550px) {
+    .desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .mobile {
+        display: none;
+    }
+}
