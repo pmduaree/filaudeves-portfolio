@@ -1,7 +1,6 @@
 .container {
     display:flex;
     flex-wrap: wrap;
-    margin-top: 30px;
     overflow: auto;
 }
 
@@ -12,5 +11,6 @@
 @media (max-width: 550px) {
     .container {
         height: 100%;
+        margin-top: 30px;
     }
 }
