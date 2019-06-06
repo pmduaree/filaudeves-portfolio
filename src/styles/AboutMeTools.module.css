@@ -1,3 +1,9 @@
 .rowContainer {
     margin: 10px 0;
 }
+
+@media (max-width: 549px) {
+    .rowContainer {
+        margin: 0;
+    }
+}

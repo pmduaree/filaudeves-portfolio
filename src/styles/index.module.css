@@ -12,3 +12,27 @@
     margin-top: 20px;
     width: 100%;
 }
+
+.imageMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.textMobile {
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+@media screen and (max-width: 550px) {
+    .imageDesktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .imageMobile {
+        display: none;
+    }
+}
