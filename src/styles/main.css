@@ -74,3 +74,12 @@ li:not(.slide) {
 .carousel .control-dots .dot {
     background: #5368E0 !important;
 }
+
+@media screen and (max-width: 550px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    body {
+        position: relative;
+    }
+}

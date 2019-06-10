@@ -4,7 +4,6 @@
 
 .points {
     animation: zoomIn .7s;
-
 }
 
 @keyframes zoomIn {

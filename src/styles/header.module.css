@@ -21,7 +21,54 @@
     color: #5368E0;
 }
 
+.headerMenuDesktop,
+.headerMobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerMenuMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.menuMobile {
+    position: absolute;
+    height: 100vh;
+    background: white;
+    width: 100vw;
+    animation: slideInLeft .5s;
+    z-index: 100;
+    top: 85px;
+    left: -7vh;
+}
+
+.hide {
+    transition: transform 0.8s ease;
+    transform: translateX(100%);
+}
+
+.show {
+    transition: transform 0.8s ease;
+    transform: translateX(0px);
+}
+
+@media screen and (min-width: 550px) {
+    .headerMenuMobile,
+    .menuMobile {
+        display: none !important;
+    }
+}
+
 @media screen and (max-width: 550px) {
+    .headerMenuDesktop {
+        display: none;
+    }
+
     .text {
         padding-top: 10px;
         padding-bottom: 10px;
