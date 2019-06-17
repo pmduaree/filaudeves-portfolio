@@ -75,6 +75,15 @@ li:not(.slide) {
     background: #5368E0 !important;
 }
 
+.sr-read {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
 @media screen and (max-width: 550px) {
     html, body {
         overflow-x: hidden;

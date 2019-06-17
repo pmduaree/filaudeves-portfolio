@@ -1,7 +1,10 @@
 import React from "react"
 
 import Layout from "../components/Layout"
-import homeImg from "../resources/home.svg";
+import homeBackground from "../resources/homeBackground.svg";
+import homeDevices from "../resources/homeDevices.svg";
+import homeMe from "../resources/homeMe.svg";
+import homeDesktop from "../resources/homeDesktop.svg";
 import style from "../styles/index.module.css";
 import homeDesktopMobile from "../resources/homeDesktopMobile.svg";
 import homeDevicesMobile from "../resources/homeDevicesMobile.svg";
@@ -18,7 +21,21 @@ const IndexPage = () => (
             <div className={style.nameText}>I'm Ivonne.</div>
             <div>UX/UI Designer</div>
           </div>
-          <img className={style.imageContainer} src={homeImg}/>
+          <div className={style.desktopBase}>
+            <object className={style.desktopBackground} data={homeBackground} type="image/svg+xml"/>
+            <div className={style.desktopMe}>
+              <a className={style.desktopAnchor} href={"about-me"}><span className={'sr-read'}>About Me</span></a>
+              <object data={homeMe} type="image/svg+xml"/>
+            </div>
+            <div className={style.desktopDevices}>
+              <a className={style.desktopAnchor} href={"work"}><span className={'sr-read'}>Devices</span></a>
+              <object data={homeDevices} type="image/svg+xml"/>
+            </div>
+            <div className={style.desktopDesktop}>
+              <a className={style.desktopAnchor} href={"work"}><span className={'sr-read'}>Desktop</span></a>
+              <object data={homeDesktop} type="image/svg+xml"/>
+            </div>
+          </div>
         </div>
         <div className={style.imageMobile}>
           <Link to={"work"}>
