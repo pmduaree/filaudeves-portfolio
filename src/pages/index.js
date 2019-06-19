@@ -23,10 +23,6 @@ const IndexPage = () => (
           </div>
           <div className={style.desktopBase}>
             <object className={style.desktopBackground} data={homeBackground} type="image/svg+xml"/>
-            <div className={style.desktopMe}>
-              <a className={style.desktopAnchor} href={"about-me"}><span className={'sr-read'}>About Me</span></a>
-              <object data={homeMe} type="image/svg+xml"/>
-            </div>
             <div className={style.desktopDevices}>
               <a className={style.desktopAnchor} href={"work"}><span className={'sr-read'}>Devices</span></a>
               <object data={homeDevices} type="image/svg+xml"/>
@@ -34,6 +30,10 @@ const IndexPage = () => (
             <div className={style.desktopDesktop}>
               <a className={style.desktopAnchor} href={"work"}><span className={'sr-read'}>Desktop</span></a>
               <object data={homeDesktop} type="image/svg+xml"/>
+            </div>
+            <div className={style.desktopMe}>
+              <a className={style.desktopAnchor} href={"about-me"}><span className={'sr-read'}>About Me</span></a>
+              <object data={homeMe} type="image/svg+xml"/>
             </div>
           </div>
         </div>
