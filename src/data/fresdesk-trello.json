@@ -11,9 +11,10 @@
     "Invision"
   ],
   "detailsTitle": "Easily sync & prioritize support ticket",
+
   "detailsText": "Collaboration on multidisciplinary teams may has some struggles, as work on different platforms. We build the Freshdesk power-up to keep custumer support teams linked with other teams on Trello. <br><br>The main goal was to understand the needs of the user to optimize the information showed in each platform.",
   "detailsImage": "../images/freshdesk-trello-details.png",
-  "detailsText2": "",
+  "detailsText2": "Users on Trello wanted to see all the information provided in Freshdesk, and also generate content that could be linked to their tickets. On Trello we were able to build a more complex modal that user are able to create a ticket from Trello to Freshdesk, and also to have an advance search for tickets.",
   "contributionImage": "../images/freshdesk-trello-contribution.png",
   "contributionList": [
     "Product planning from scratch",

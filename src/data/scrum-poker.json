@@ -12,9 +12,9 @@
     "Adobe Cloud"
   ],
   "detailsTitle": "Sprint planning sessions made easy",
-  "detailsText": "No more physical card set needed in your sprint planning sessions! Select your favorite card set, record your estimates, and play Planning Poker® in one app. ",
+  "detailsText": "Working within remote teams is always challenging, but estimation tasks will be no problem with Scrum Poker.<br>No more physical card set needed in your sprint planning sessions!<br>Scrum Poker allow you to select your favorite card set, record your estimates, and play Planning Poker® in one app. <br><br>Recreate an activity to make it in the most natural way was challenging. As a remote team, we worked on build this app as practical as possible, because we experienced the difficulties of keeping record of the sessions, organize the card sets and avoid groupthink.",
   "detailsImage": "../images/scrum-poker-details.png",
-  "detailsText2": "I worked on the redesign and adaptation of the app, in also the addition of new features.",
+  "detailsText2": "",
   "contributionImage": "../images/scrum-poker-contribution.png",
   "contributionList": [
     "User flow definition",
