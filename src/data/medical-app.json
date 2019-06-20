@@ -1,0 +1,39 @@
+{
+  "id": "medical-app",
+  "title": "Medical App",
+  "subtitle": "Ui Design",
+  "greetingText": "MedApp allows doctors to connect with a network of hospitals to perform procedures.",
+  "greetingImage": "../images/medical-app-greeting.png",
+  "role": "UX/UI Designer",
+  "platform": "iPad App",
+  "tools": [
+    "Sketch",
+    "Invision",
+    "Adobe Cloud",
+    "Overflow"
+  ],
+  "detailsTitle": "On demand support",
+  "detailsText": "MedApp wants to rebuild the way medical procedures works right now, allowing connect operating room with different doctors. \nIt is a scheduling system for doctors where they contact to request a proctor for specialized surgeries.\n\n\n",
+  "detailsImage": "../images/medical-app-details.png",
+  "detailsText2": "",
+  "contributionImage": "../images/medical-app-contribution.png",
+  "contributionList": [
+    "User flow definition",
+    "Build a Design System",
+    "Run usability testing",
+    "Mockup design: provide the Invision prototype and Sketch files"
+  ],
+  "carousels": [
+    {
+      "title": "Screens of MedApp",
+      "images": [
+        "../images/medical-app-carousel-0.png",
+        "../images/medical-app-carousel-1.png",
+        "../images/medical-app-carousel-2.png",
+        "../images/medical-app-carousel-3.png",
+        "../images/medical-app-carousel-4.png",
+        "../images/medical-app-carousel-5.png"
+      ]
+    }
+  ]
+}

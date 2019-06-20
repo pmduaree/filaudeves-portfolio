@@ -3,6 +3,7 @@ import scrumPokerImg from "../images/scrum-poker.png";
 import standBotImg from "../images/stand-bot.png";
 import retrospectivesImg from "../images/retrospectives.png";
 import microsoftDynamicsImg from "../images/microsoft-dynamics.png";
+import medicalAppImg from "../images/medical-app.png";
 
 export const PROJECTS = [
   {
@@ -35,6 +36,12 @@ export const PROJECTS = [
     imageUrl: microsoftDynamicsImg,
     subtitle: 'Product Design',
     type: 'DESKTOP'
+  },{
+    id: 'medical-app',
+    name: 'Medical App',
+    imageUrl: medicalAppImg,
+    subtitle: 'UI DESIGN',
+    type: 'DEVICES'
   }
 ];
 
