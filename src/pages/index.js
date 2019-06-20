@@ -24,25 +24,25 @@ const IndexPage = () => (
           <div className={style.desktopBase}>
             <object className={style.desktopBackground} data={homeBackground} type="image/svg+xml"/>
             <div className={style.desktopDevices}>
-              <a className={style.desktopAnchor} href={"work"}><span className={'sr-read'}>Devices</span></a>
+              <Link className={style.desktopAnchor} to={"work"} state={{selectedProjectType: 'DEVICES'}}><span className={'sr-read'}>Devices</span></Link>
               <object data={homeDevices} type="image/svg+xml"/>
             </div>
             <div className={style.desktopDesktop}>
-              <a className={style.desktopAnchor} href={"work"}><span className={'sr-read'}>Desktop</span></a>
+              <Link className={style.desktopAnchor} to={"work"} state={{selectedProjectType: 'DESKTOP'}}><span className={'sr-read'}>Desktop</span></Link>
               <object data={homeDesktop} type="image/svg+xml"/>
             </div>
             <div className={style.desktopMe}>
-              <a className={style.desktopAnchor} href={"about-me"}><span className={'sr-read'}>About Me</span></a>
+              <Link className={style.desktopAnchor} to={"about-me"}><span className={'sr-read'}>About Me</span></Link>
               <object data={homeMe} type="image/svg+xml"/>
             </div>
           </div>
         </div>
         <div className={style.imageMobile}>
-          <Link to={"work"}>
+          <Link to={"work"} state={{selectedProjectType: 'DESKTOP'}}>
             <img src={homeDesktopMobile}/>
             <div className={style.textMobile}>Desktop</div>
           </Link>
-          <Link to={"work"}>
+          <Link to={"work"} state={{selectedProjectType: 'DEVICES'}}>
             <img src={homeDevicesMobile}/>
             <div className={style.textMobile}>Devices</div>
           </Link>

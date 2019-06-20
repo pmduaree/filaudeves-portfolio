@@ -8,8 +8,13 @@ import style from "../styles/work.module.css";
 import WorkProjectsMobile from "../components/WorkProjectsMobile";
 import {filterProjects} from "../../utils/utils";
 
-const WorkPage = () => {
-  const [currentProjectType, setCurrentProjectType] = useState(PROJECT_TYPES.ALL_PROJECTS.name);
+const WorkPage = ({location}) => {
+  let projectType = PROJECT_TYPES.ALL_PROJECTS.name;
+  if (location.state && location.state.selectedProjectType) {
+    projectType = location.state.selectedProjectType;
+  }
+
+  const [currentProjectType, setCurrentProjectType] = useState(projectType);
   const [currentProjects, setCurrentProjects] = useState(PROJECTS);
 
   useEffect(() => {
