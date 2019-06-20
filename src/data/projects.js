@@ -2,6 +2,7 @@ import freshdeskTrelloImg from "../images/freshdesk-trello.png";
 import scrumPokerImg from "../images/scrum-poker.png";
 import standBotImg from "../images/stand-bot.png";
 import retrospectivesImg from "../images/retrospectives.png";
+import microsoftDynamicsImg from "../images/microsoft-dynamics.png";
 
 export const PROJECTS = [
   {
@@ -27,7 +28,13 @@ export const PROJECTS = [
     name: 'Retrospectives',
     imageUrl: retrospectivesImg,
     subtitle: 'Product Design',
-    type: 'DEVICES'
+    type: 'DESKTOP'
+  },{
+    id: 'microsoft-dynamics',
+    name: 'Freshdesk + Dynamics 365',
+    imageUrl: microsoftDynamicsImg,
+    subtitle: 'Product Design',
+    type: 'DESKTOP'
   }
 ];
 

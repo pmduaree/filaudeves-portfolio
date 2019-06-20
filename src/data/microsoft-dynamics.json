@@ -1,0 +1,38 @@
+{
+  "id": "microsoft-dynamics",
+  "title": "Freshdesk + Dynamics 365",
+  "subtitle": "Product Design",
+  "greetingText": "Freshdesk + Dynamics is an integration that let you sync all Microsoft Dynamics 365 CRM contacts and accounts with Freshdesk to provide exceptional sales and customer support.",
+  "greetingImage": "../images/microsoft-dynamics-greeting.png",
+  "role": "Lead Designer",
+  "platform": "Freshdesk",
+  "tools": [
+    "Sketch",
+    "Invision",
+    "Adobe Cloud"
+  ],
+  "detailsTitle": "Visualize the Dynamics 365 customer data",
+  "detailsText": "Our big challenge was to make a CRM app intuitive for users that are not used to manage this kind of information. We did several research and talked with a Dynamics advisor to have a deeper knowledge of the app to translate it into an easily language.",
+  "detailsImage": "../images/microsoft-dynamics-details.png",
+  "detailsText2": "",
+  "contributionImage": "../images/microsoft-dynamics-contribution.png",
+  "contributionList": [
+    "New features implementation",
+    "Run usability testing",
+    "Brand identity and marketing collaterals",
+    "Mockup design: provide the Invision prototype and Sketch files"
+  ],
+  "carousels": [
+    {
+      "title": "Screens of Freshdesk + Dynamics 365",
+      "images": [
+        "../images/microsoft-dynamics-carousel-0.png",
+        "../images/microsoft-dynamics-carousel-1.png",
+        "../images/microsoft-dynamics-carousel-2.png",
+        "../images/microsoft-dynamics-carousel-3.png",
+        "../images/microsoft-dynamics-carousel-4.png",
+        "../images/microsoft-dynamics-carousel-5.png"
+      ]
+    }
+  ]
+}
