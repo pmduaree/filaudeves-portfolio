@@ -135,7 +135,7 @@
 .arrow {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    transition: stroke-dashoffset 3s linear;
+    transition: stroke-dashoffset 1.5s linear;
 }
 
 .desktopArrow:hover .arrow,
