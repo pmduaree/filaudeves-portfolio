@@ -37,9 +37,21 @@ const IndexPage = () => (
             </div>
             <Link className={style.desktopArrow} to={"work"} state={{selectedProjectType: 'DESKTOP'}}>
               <svg width="149" height="65" viewBox="0 0 149 65" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path strokeWidth="1.5" className={style.arrow} d="M0.5 64C0.499997 46 26 1 76.5 1C123 1 143 24.3333 148.5 33.5" stroke="#21232E" />
+                <path strokeWidth="1.5" className={style.arrow} d="M0.5 64C0.499997 46 26 1 76.5 1C123 1 143 24.3333 148.5 33.5" stroke="#5368E0" />
               </svg>
               <span className={style.desktopText}>Desktop</span>
+            </Link>
+            <Link className={style.aboutMeArrow} to={"about-me"}>
+              <svg width="115" height="65" viewBox="0 0 115 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path strokeWidth="1.5" className={style.arrow} d="M114.5 64C114.5 46.5 106.1 11 70.5 3C34.9 -5 10.6667 11.8333 0.5 23" stroke="#5368E0"/>
+              </svg>
+              <span className={style.aboutMeText}>About Me</span>
+            </Link>
+            <Link className={style.devicesArrow} to={"work"} state={{selectedProjectType: 'DEVICES'}}>
+              <svg width="85" height="39" viewBox="0 0 85 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path strokeWidth="1.5" className={style.arrow}  d="M84.2336 0.500152C79 0.499943 44.5 0.500202 33.5 0.500157C1.23364 0.500024 1.2337 27.5001 1.23364 37.5247" stroke="#5368E0"/>
+              </svg>
+              <span className={style.devicesText}>Devices</span>
             </Link>
           </div>
         </div>

@@ -91,11 +91,45 @@
     text-transform: uppercase;
 }
 
-.desktopText:hover {
+.aboutMeArrow {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 14%;
+    left: 60%;
+}
+
+.aboutMeText {
+    position: absolute;
+    text-transform: uppercase;
+    left: 47%;
+    top: 107%;
+    white-space: nowrap;
+}
+
+.devicesArrow {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 80%;
+    left: 84%;
+}
+
+.devicesText {
+    position: absolute;
+    text-transform: uppercase;
+    top: -18%;
+    left: 70%;
+}
+
+.desktopArrow:hover .desktopText,
+.aboutMeArrow:hover .aboutMeText,
+.devicesArrow:hover .devicesText {
     text-decoration: none;
     padding-bottom: 3px;
-    border-bottom: 1px solid #5368E0;
     color: #5368E0;
+    border-bottom: 1px solid #5368E0;
+
 }
 
 .arrow {
@@ -104,7 +138,9 @@
     transition: stroke-dashoffset 3s linear;
 }
 
-.desktopArrow:hover .arrow {
+.desktopArrow:hover .arrow,
+.aboutMeArrow:hover .arrow,
+.devicesArrow:hover .arrow {
     stroke-dashoffset: 0;
 }
 
