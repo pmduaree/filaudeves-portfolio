@@ -35,6 +35,12 @@ const IndexPage = () => (
               <Link className={style.desktopAnchor} to={"about-me"}><span className={'sr-read'}>About Me</span></Link>
               <object data={homeMe} type="image/svg+xml"/>
             </div>
+            <Link className={style.desktopArrow} to={"work"} state={{selectedProjectType: 'DESKTOP'}}>
+              <svg width="149" height="65" viewBox="0 0 149 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path strokeWidth="1.5" className={style.arrow} d="M0.5 64C0.499997 46 26 1 76.5 1C123 1 143 24.3333 148.5 33.5" stroke="#21232E" />
+              </svg>
+              <span className={style.desktopText}>Desktop</span>
+            </Link>
           </div>
         </div>
         <div className={style.imageMobile}>
@@ -57,4 +63,4 @@ const IndexPage = () => (
   </Layout>
 );
 
-export default IndexPage
+export default IndexPage;
