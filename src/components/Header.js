@@ -11,6 +11,10 @@ const Header = ({selectedPage}) => {
   const toggleDisplayMenu = () => {
     setDisplayMenuModal(!displayMenuModal);
     document.documentElement.style.overflowY = displayMenuModal ? 'scroll' : 'hidden';
+
+    return () => {
+      document.documentElement.style.overflowY = 'scroll';
+    }
   };
 
   return (

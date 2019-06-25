@@ -45,7 +45,7 @@
     animation: slideInLeft .5s;
     z-index: 100;
     top: 85px;
-    left: -7vh;
+    left: 0;
 }
 
 .hide {

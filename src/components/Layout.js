@@ -6,18 +6,22 @@ import style from "../styles/layout.module.css"
 import '../styles/skeleton.css'
 import '../styles/main.css'
 
-const Layout = ({children, selectedPage}) => (
-  <div className={'container'}>
-    <div className={'row'}>
-      <div className={'twelve columns'}>
-        <Header selectedPage={selectedPage}/>
-        <div className={style.container}>
-          <main>{children}</main>
+const Layout = ({children, selectedPage}) => {
+  document.documentElement.style.overflowY = 'scroll';
+
+  return (
+    <div className={'container'}>
+      <div className={'row'}>
+        <div className={'twelve columns'}>
+          <Header selectedPage={selectedPage}/>
+          <div className={style.container}>
+            <main>{children}</main>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-);
+  )
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

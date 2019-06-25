@@ -11,10 +11,10 @@ const ProjectPage = (props) => {
   const workData = props.pageContext.workData;
   return (
     <Layout>
-        <ProjectHeader
-          title={workData.title}
-          subtitle={workData.subtitle}
-        />
+      <ProjectHeader
+        title={workData.title}
+        subtitle={workData.subtitle}
+      />
       <section>
         <ProjectIntroduction
           greetingImage={workData.greetingImage}
@@ -38,14 +38,14 @@ const ProjectPage = (props) => {
           contributionList={workData.contributionList}
         />
       </section>
-        {workData.carousels.map((carousel, index) => (
-          <section key={index}>
-            <ProjectCarousel
-              title={carousel.title}
-              images={carousel.images}
-            />
-          </section>
-        ))}
+      {workData.carousels.map((carousel, index) => (
+        <section key={index}>
+          <ProjectCarousel
+            title={carousel.title}
+            images={carousel.images}
+          />
+        </section>
+      ))}
     </Layout>
   )
 };
