@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect} from "react"
 import PropTypes from "prop-types"
 
 import Header from "./Header"
@@ -7,7 +7,9 @@ import '../styles/skeleton.css'
 import '../styles/main.css'
 
 const Layout = ({children, selectedPage}) => {
-  document.documentElement.style.overflowY = 'scroll';
+  useEffect(() => {
+    document.documentElement.style.overflowY = 'scroll';
+  });
 
   return (
     <div className={'container'}>
