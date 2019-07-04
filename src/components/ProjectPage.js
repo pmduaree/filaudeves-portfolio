@@ -10,13 +10,14 @@ import ProjectCarousel from "./ProjectCarousel";
 const ProjectPage = (props) => {
   const workData = props.pageContext.workData;
   return (
-    <Layout>
+    <Layout selectedPage={'work'}>
       <ProjectHeader
         title={workData.title}
         subtitle={workData.subtitle}
       />
       <section>
         <ProjectIntroduction
+          id={workData.id}
           greetingImage={workData.greetingImage}
           greetingText={workData.greetingText}
           role={workData.role}

@@ -6,6 +6,10 @@
     border-radius: 5px;
 }
 
+.noBoxShadow {
+    box-shadow: none !important;
+}
+
 .greetingText {
     margin-top: 30px;
     font-size: 20px;

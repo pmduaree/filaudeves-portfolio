@@ -1,9 +1,10 @@
 import freshdeskTrelloImg from "../images/freshdesk-trello.png";
-import scrumPokerImg from "../images/scrum-poker.png";
+import medicalAppImg from "../images/medical-app.png";
 import standBotImg from "../images/stand-bot.png";
+import vehicleHealthImg from "../images/vehicle-health.png";
+import scrumPokerImg from "../images/scrum-poker.png";
 import retrospectivesImg from "../images/retrospectives.png";
 import microsoftDynamicsImg from "../images/microsoft-dynamics.png";
-import medicalAppImg from "../images/medical-app.png";
 
 export const PROJECTS = [
   {
@@ -13,15 +14,27 @@ export const PROJECTS = [
     imageUrl: freshdeskTrelloImg,
     type: 'DESKTOP'
   },{
-    id: 'scrum-poker',
-    name: 'Scrum Poker',
-    imageUrl: scrumPokerImg,
-    subtitle: 'Product Design',
-    type: 'DESKTOP'
+    id: 'medical-app',
+    name: 'Medical App',
+    imageUrl: medicalAppImg,
+    subtitle: 'UI DESIGN',
+    type: 'DEVICES'
   },{
     id: 'stand-bot',
     name: 'Stand Bot',
     imageUrl: standBotImg,
+    subtitle: 'Product Design',
+    type: 'DESKTOP'
+  },{
+    id: 'vehicle-health',
+    name: 'Vehicle Health Monitor',
+    imageUrl: vehicleHealthImg,
+    subtitle: 'UX/UI Design',
+    type: 'DEVICES'
+  },{
+    id: 'scrum-poker',
+    name: 'Scrum Poker',
+    imageUrl: scrumPokerImg,
     subtitle: 'Product Design',
     type: 'DESKTOP'
   },{
@@ -36,12 +49,6 @@ export const PROJECTS = [
     imageUrl: microsoftDynamicsImg,
     subtitle: 'Product Design',
     type: 'DESKTOP'
-  },{
-    id: 'medical-app',
-    name: 'Medical App',
-    imageUrl: medicalAppImg,
-    subtitle: 'UI DESIGN',
-    type: 'DEVICES'
   }
 ];
 

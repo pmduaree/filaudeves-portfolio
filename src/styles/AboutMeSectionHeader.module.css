@@ -9,3 +9,9 @@
     color: #5368E0;
     cursor: pointer;
 }
+
+@media screen and (max-width: 550px) {
+    .section {
+        padding: 15px;
+    }
+}

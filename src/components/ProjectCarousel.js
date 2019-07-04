@@ -14,8 +14,8 @@ const ProjectCarousel = ({title, images}) => {
         </div>
       </div>
       <div className={'row'}>
-        <div className={'two columns'}>&nbsp;</div>
-        <div className={'eight columns'}>
+        <div className={'one column'}>&nbsp;</div>
+        <div className={'ten columns'}>
           <Carousel showArrows={true}
                     showStatus={false}
                     showThumbs={false}

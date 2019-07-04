@@ -1,0 +1,9 @@
+.profileContainer {
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 550px) {
+    .profileContainer {
+        display: none;
+    }
+}

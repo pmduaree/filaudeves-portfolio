@@ -3,11 +3,11 @@ import PropTypes from "prop-types"
 import style from "../styles/projectIntroduction.module.css"
 import arrowSVG from "../resources/down-arrow.svg"
 
-const ProjectIntroduction = ({greetingImage, greetingText, role, platform, tools}) => (
+const ProjectIntroduction = ({greetingImage, greetingText, role, platform, tools, id}) => (
   <>
   <div className={'row'}>
     <div className={'six columns'}>
-      <img className={style.greetingImage} src={greetingImage.publicURL}/>
+      <img className={[style.greetingImage, id === 'vehicle-health' ? style.noBoxShadow : ''].join(' ')} src={greetingImage.publicURL}/>
     </div>
     <div className={'six columns'}>
       <div className={['row', style.introductionText].join(' ')}>
@@ -41,11 +41,12 @@ const ProjectIntroduction = ({greetingImage, greetingText, role, platform, tools
 ;
 
 ProjectIntroduction.propTypes = {
+  id: PropTypes.number.isRequired,
   greetingImage: PropTypes.object.isRequired,
   greetingText: PropTypes.string.isRequired,
   role: PropTypes.string.isRequired,
   platform: PropTypes.string.isRequired,
-  tools: PropTypes.array.isRequired,
+  tools: PropTypes.array.isRequired
 };
 
 export default ProjectIntroduction;

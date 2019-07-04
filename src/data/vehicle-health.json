@@ -1,0 +1,36 @@
+{
+  "id": "vehicle-health",
+  "title": "Vehicle Health Monitor",
+  "subtitle": "UX/UI Design",
+  "greetingText": "Vehicle Health App is a tool for critical engine information as Fault code alerts, maintenance notice and see engine problems details",
+  "greetingImage": "../images/vehicle-health-greeting.png",
+  "role": "UX/UI Designer",
+  "platform": "Mobile app",
+  "tools": [
+    "Figma",
+    "Zeplin",
+    "Overflow"
+  ],
+  "detailsTitle": "Detect engine problems on time",
+  "detailsText": "Vehicle Health Monitor, provide the required information to truck drivers to ensure the vehicle is in perfect conditions to service. \nIt shows the condition of the engine, when a maintainance is required, active and past fault codes, to keep record of the complete status of the engine health.<br><br>We run usability testing with potential users to learn from their actual necessities at the moment they need to fill the Driver Vehicle Inspection Report (DVIR) to provide a solution that fits to their necessities. ",
+  "detailsImage": "../images/vehicle-health-details.png",
+  "detailsText2": "",
+  "contributionImage": "../images/vehicle-health-contribution.png",
+  "contributionList": [
+    "User flow definition",
+    "New features implementation",
+    "Run usability testing",
+    "Mockup design: provide the Figma files, and design handoff on Zeplin"
+  ],
+  "carousels": [
+    {
+      "title": "Screens of vehicle-health",
+      "images": [
+        "../images/vehicle-health-carousel-0.png",
+        "../images/vehicle-health-carousel-1.png",
+        "../images/vehicle-health-carousel-2.png",
+        "../images/vehicle-health-carousel-3.png"
+      ]
+    }
+  ]
+}
