@@ -3,7 +3,18 @@ import PropTypes from "prop-types"
 import style from "../styles/projectIntroduction.module.css"
 import arrowSVG from "../resources/down-arrow.svg"
 
-const ProjectIntroduction = ({greetingImage, greetingText, role, platform, tools, id}) => (
+const ProjectIntroduction = ({greetingImage, greetingText, role, platform, tools, id}) => {
+  const moveToNextSection = () => {
+    const projectDetails = document.getElementById('projectDetails');
+    const y = projectDetails.getBoundingClientRect().top + window.scrollY - 20;
+    window.scroll({
+      top: y,
+      behavior: 'smooth'
+
+    });
+  };
+
+  return (
   <>
   <div className={'row'}>
     <div className={'six columns'}>
@@ -34,10 +45,10 @@ const ProjectIntroduction = ({greetingImage, greetingText, role, platform, tools
     </div>
   </div>
   <div className={['row', style.arrowContainer].join(' ')}>
-    <img src={arrowSVG}/>
+    <img src={arrowSVG} onClick={moveToNextSection}/>
   </div>
   </>
-  )
+  )}
 ;
 
 ProjectIntroduction.propTypes = {

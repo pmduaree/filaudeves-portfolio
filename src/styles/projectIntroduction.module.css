@@ -41,6 +41,10 @@
     position: relative;
 }
 
+.arrowContainer > img {
+    cursor: pointer;
+}
+
 .arrowContainer img {
     -webkit-animation: action 1s infinite alternate;
     animation: action 1s infinite alternate;

@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import style from "../styles/projectDetails.module.css"
 
 const ProjectDetails = ({detailsTitle, detailsText, detailsImage, detailsText2}) => (
-    <>
+    <div id={'projectDetails'}>
       <div className={'row'}>
         <div className={'one column'}>&nbsp;</div>
         <div className={'ten columns'}>
@@ -23,7 +23,7 @@ const ProjectDetails = ({detailsTitle, detailsText, detailsImage, detailsText2})
           <div className={style.detailsText}>{detailsText2}</div>
         </div>
       </div>
-    </>
+    </div>
   )
 ;
 
