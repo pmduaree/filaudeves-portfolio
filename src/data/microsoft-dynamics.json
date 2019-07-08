@@ -17,9 +17,10 @@
   "detailsText2": "",
   "contributionImage": "../images/microsoft-dynamics-contribution.png",
   "contributionList": [
-    "New features implementation",
+    "Product planning from scratch",
+    "User Flow definition",
     "Run usability testing",
-    "Brand identity and marketing collaterals",
+    "GUI testing",
     "Mockup design: provide the Invision prototype and Sketch files"
   ],
   "carousels": [

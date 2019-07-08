@@ -26,7 +26,12 @@
     {
       "title": "Screens of Stand-Bot",
       "images": [
-        "../images/stand-bot-carousel-0.png"
+        "../images/stand-bot-carousel-0.png",
+        "../images/stand-bot-carousel-1.png",
+        "../images/stand-bot-carousel-2.png",
+        "../images/stand-bot-carousel-3.png",
+        "../images/stand-bot-carousel-4.png",
+        "../images/stand-bot-carousel-5.png"
       ]
     }
   ]
