@@ -42,7 +42,7 @@
 .desktopMe {
     position: absolute;
     left: 44.5%;
-    top: 26.6%;
+    top: 26%;
     transition: filter 0.3s ease;
     width: 25%;
 }

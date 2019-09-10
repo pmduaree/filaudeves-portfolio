@@ -15,6 +15,7 @@ module.exports = {
         background_color: `#5368E0`,
         theme_color: `#5368E0`,
         display: `minimal-ui`,
+        icon: `src/images/favicon.png`
       },
     },
     `gatsby-transformer-sharp`,

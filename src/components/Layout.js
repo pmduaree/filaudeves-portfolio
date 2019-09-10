@@ -5,6 +5,7 @@ import Header from "./Header"
 import style from "../styles/layout.module.css"
 import '../styles/skeleton.css'
 import '../styles/main.css'
+import {Helmet} from "react-helmet";
 
 const Layout = ({children, selectedPage}) => {
   useEffect(() => {
@@ -12,6 +13,16 @@ const Layout = ({children, selectedPage}) => {
   });
 
   return (
+    <div>
+      <div className="application">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <meta name="Description" content="Ivonne - UX Designer | Portfolio & CV
+           Ivonne is a UX/UI designer from México. Experienced in Product Innovation for software industry and strategic improvement."
+          />
+          <title>Filaudeves Portfolio</title>
+        </Helmet>
+      </div>
     <div className={'container'}>
       <div className={'row'}>
         <div className={'twelve columns'}>
@@ -21,6 +32,7 @@ const Layout = ({children, selectedPage}) => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 };
