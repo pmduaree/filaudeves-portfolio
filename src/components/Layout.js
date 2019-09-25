@@ -20,7 +20,7 @@ const Layout = ({children, selectedPage}) => {
           <meta name="Description" content="Ivonne - UX Designer | Portfolio & CV
            Ivonne is a UX/UI designer from México. Experienced in Product Innovation for software industry and strategic improvement."
           />
-          <title>Filaudeves Portfolio</title>
+          <title>Ivonne | Portfolio</title>
         </Helmet>
       </div>
     <div className={'container'}>
