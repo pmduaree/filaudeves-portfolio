@@ -1,5 +1,5 @@
 import React from "react"
-import portfolioPhoto from "../resources/portfolioPhoto.svg"
+import portfolioPhoto from "../resources/avatar.png"
 import style from '../styles/AboutMeSidebar.module.css'
 import Bar from "./Bar";
 

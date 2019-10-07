@@ -1,6 +1,7 @@
 import React from "react"
 import style from '../styles/aboutMeProfile.module.css'
 import AboutMeSidebar from "./AboutMeSidebar";
+import resume from '../resources/Resume-IvonneAudeves.pdf'
 
 const AboutMeProfile = () => {
   return (
@@ -29,6 +30,11 @@ const AboutMeProfile = () => {
         <br/>
         <h2>Education</h2>
         Bachelor of Industrial Design from Instituto Tecnol&oacute;gico de Estudios Superiores de Monterrey
+        <br/>
+        <br/>
+        <a target="_blank" rel="noopener noreferrer" href={resume}>
+          <input className={["button-primary", style.button].join(' ')} type="submit" value="Download Resume"/>
+        </a>
       </div>
     </>
   )

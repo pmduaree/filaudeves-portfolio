@@ -2,6 +2,11 @@
     margin-bottom: 30px;
 }
 
+.button {
+    background: #5368E0 !important;
+    border-color: #5368E0 !important;
+}
+
 @media screen and (min-width: 550px) {
     .profileContainer {
         display: none;
