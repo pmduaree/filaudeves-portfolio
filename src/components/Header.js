@@ -30,17 +30,17 @@ const Header = ({selectedPage}) => {
         </div>
         <div className={'six columns'}>
           <div className={style.headerMenuDesktop}>
-            <Link className={style.anchor} to="work">
+            <Link className={style.anchor} to="/work">
               <span className={[style.text, selectedClass('work')].join(' ')}>
                 Work
               </span>
             </Link>
-            <Link className={style.anchor} to="about-me">
+            <Link className={style.anchor} to="/about-me">
               <span className={[style.text, selectedClass('about-me')].join(' ')}>
                 About Me
               </span>
             </Link>
-            <Link className={style.anchor} to="contact">
+            <Link className={style.anchor} to="/contact">
               <span className={[style.text, selectedClass('contact')].join(' ')}>
                 Contact
               </span>

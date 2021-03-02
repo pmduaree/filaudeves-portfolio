@@ -7,3 +7,20 @@
     font-size: 30px;
     text-align: center;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.returnHome {
+    color: #5368E0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.returnHome:hover {
+    cursor: pointer;
+    color: #5368E0;
+    border-bottom: 1px solid #5368E0;
+}

@@ -13,7 +13,7 @@ const AboutMeSidebar = () => {
           <img className={style.profilePicture} src={portfolioPhoto}/>
           <div className={style.skillsContainer}>
             <h5>Language</h5>
-            <Bar value={100} label={'English (Profesional)'}/>
+            <Bar value={100} label={'English (Professional)'}/>
             <Bar value={100} label={'Spanish (Native)'}/>
             <h5>Location</h5>
             <div>Sonora, M&eacute;xico.</div>
