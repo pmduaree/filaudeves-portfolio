@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import style from "../styles/projectContribution.module.css"
 
 const ProjectContribution = ({ contributionImage, contributionList }) => {
-  if (!contributionList.lenght)
+  if (!contributionList.length)
     return "";
 
   return (
