@@ -1,0 +1,52 @@
+{
+  "id": "peachtober2020",
+  "title": "Peachtober 2020",
+  "subtitle": "Miscellaneous",
+  "greetingText": "Every October I like to join the <a href=\"https://inktober.com/\" target=\"_blank\">Inktober challenge</a>. In 2020, I decided to take the <a href=\"https://www.instagram.com/p/CEs9VxinanP\" target=\"_blank\">#Peachtober 2020</a> promts list.",
+  "greetingImage": "../images/peachtober2020-greeting.png",
+  "role": "",
+  "platform": "",
+  "tools": [
+    "ClipStudio Paing",
+    "Affinity Designer"
+  ],
+  "detailsTitle": "A drawing challenge, my second attempt",
+  "detailsText": "Every year, artists from all over the world join the Inktober challenge of draw a daily drawing throughout the month of October. <br>To do this challenge, I like to find a list of prompts that help me get inspired. And this year the prompt list that Sha'an d'Anthes (<a href=\"https://www.instagram.com/furrylittlepeach/\" target=\"_blank\">@furrylittlepeach</a>) shared, immediately caught my attention and it was the one I decided to follow. <br><br>This is the second edition of Inktober that I have joined. Since I liked the result of the previous year, I decided to apply the same philosophy of challenging myself to learn a new tool, and so I took it as a challenge to learn to draw with a pen tablet.<br><br>It was very difficult and challenging for me, but the level of learning I had was also very high and rewarding.",
+  "detailsImage": {},
+  "detailsText2": "",
+  "contributionImage": {},
+  "contributionList": [],
+  "carousels": [
+    {
+      "title": "",
+      "showAsGrid": true,
+      "images": [
+        "../images/peachtober2020/01-peachtober.png",
+        "../images/peachtober2020/02-peachtober.png",
+        "../images/peachtober2020/03-peachtober.png",
+        "../images/peachtober2020/04-peachtober.png",
+        "../images/peachtober2020/05-peachtober.png",
+        "../images/peachtober2020/06-peachtober.png",
+        "../images/peachtober2020/07-peachtober.png",
+        "../images/peachtober2020/08-peachtober.jpg",
+        "../images/peachtober2020/09-peachtober.png",
+        "../images/peachtober2020/10-peachtober.png",
+        "../images/peachtober2020/11-peachtober.png",
+        "../images/peachtober2020/12-peachtober.png",
+        "../images/peachtober2020/13-peachtober.png",
+        "../images/peachtober2020/14-peachtober.png",
+        "../images/peachtober2020/15-peachtober.png",
+        "../images/peachtober2020/16-peachtober.png",
+        "../images/peachtober2020/17-peachtober.png",
+        "../images/peachtober2020/18-peachtober.png",
+        "../images/peachtober2020/19-peachtober.png",
+        "../images/peachtober2020/20-peachtober.png",
+        "../images/peachtober2020/21-peachtober.png",
+        "../images/peachtober2020/22-peachtober.png",
+        "../images/peachtober2020/23-peachtober.png",
+        "../images/peachtober2020/24-peachtober.png",
+        "../images/peachtober2020/25-peachtober.png"
+      ]
+    }
+  ]
+}
