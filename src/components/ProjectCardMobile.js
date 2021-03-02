@@ -5,7 +5,7 @@ import {Link} from "gatsby"
 
 const ProjectCardMobile = (props) => {
   return (
-    <Link to={props.id}>
+    <Link to={['/', props.id].join('')}>
       <img className={style.image} src={props.imageUrl}/>
       <div className={style.name}>{props.name}</div>
       <div className={style.subtitle}>{props.subtitle}</div>

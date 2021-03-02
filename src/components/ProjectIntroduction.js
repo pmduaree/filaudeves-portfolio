@@ -52,7 +52,7 @@ const ProjectIntroduction = ({greetingImage, greetingText, role, platform, tools
 ;
 
 ProjectIntroduction.propTypes = {
-  id: PropTypes.number.isRequired,
+  id: PropTypes.string.isRequired,
   greetingImage: PropTypes.object.isRequired,
   greetingText: PropTypes.string.isRequired,
   role: PropTypes.string.isRequired,

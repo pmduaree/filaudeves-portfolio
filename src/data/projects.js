@@ -5,9 +5,23 @@ import vehicleHealthImg from "../images/vehicle-health.png";
 import scrumPokerImg from "../images/scrum-poker.png";
 import retrospectivesImg from "../images/retrospectives.png";
 import microsoftDynamicsImg from "../images/microsoft-dynamics.png";
+import chilltober2019Img from "../images/chilltober2019.png";
+import peachtober2020Img from "../images/peachtober2020.png";
 
 export const PROJECTS = [
   {
+    id: 'chilltober2019',
+    name: 'Chilltober 2019',
+    imageUrl: chilltober2019Img,
+    subtitle: 'Miscellaneous',
+    type: 'MISC'
+  },{
+    id: 'peachtober2020',
+    name: 'Peachtober 2020',
+    imageUrl: peachtober2020Img,
+    subtitle: 'Miscellaneous',
+    type: 'MISC'
+  },{
     id: 'freshdesk-and-trello',
     name: 'Freshdesk + Trello APP',
     subtitle: 'Product Design',
@@ -55,5 +69,6 @@ export const PROJECTS = [
 export const PROJECT_TYPES = {
   ALL_PROJECTS: {name: "ALL_PROJECTS", display: "Show All"},
   DESKTOP: {name: "DESKTOP", display: "Desktop"},
-  DEVICES: {name: "DEVICES", display: "Devices"}
+  DEVICES: {name: "DEVICES", display: "Devices"},
+  MISC: {name: "MISC", display: "Misc"}
 };
