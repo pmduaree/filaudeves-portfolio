@@ -27,6 +27,7 @@
   "carousels": [
     {
       "title": "Screens of Scrum Poker",
+      "showAsGrid": false,
       "images": [
         "../images/scrum-poker-carousel-0.png",
         "../images/scrum-poker-carousel-1.png",

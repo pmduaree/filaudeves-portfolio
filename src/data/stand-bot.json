@@ -25,6 +25,7 @@
   "carousels": [
     {
       "title": "Screens of Stand-Bot",
+      "showAsGrid": false,
       "images": [
         "../images/stand-bot-carousel-0.png",
         "../images/stand-bot-carousel-1.png",

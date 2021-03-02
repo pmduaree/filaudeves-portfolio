@@ -28,6 +28,7 @@
   "carousels": [
     {
       "title": "Screens of Freshdesk Power-up",
+      "showAsGrid": false,
       "images": [
         "../images/freshdesk-carousel-0.png",
         "../images/freshdesk-carousel-1.png",
@@ -36,6 +37,7 @@
       ]
     },{
       "title": "Screens of Trello app",
+      "showAsGrid": false,
       "images": [
         "../images/trello-carousel-0.png",
         "../images/trello-carousel-1.png",

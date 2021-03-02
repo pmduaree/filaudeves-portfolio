@@ -25,6 +25,7 @@
   "carousels": [
     {
       "title": "Screens of vehicle-health",
+      "showAsGrid": false,
       "images": [
         "../images/vehicle-health-carousel-0.png",
         "../images/vehicle-health-carousel-1.png",

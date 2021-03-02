@@ -1,0 +1,57 @@
+{
+  "id": "chilltober2019",
+  "title": "Chilltober 2019",
+  "subtitle": "Miscellaneous",
+  "greetingText": "Every October I like to join the <a href=\"https://inktober.com/\" target=\"_blank\">Inktober challenge</a>. In 2019, I decided to take the <a href=\"https://www.instagram.com/p/B2hD5WlIRsJ/\" target=\"_blank\">#Chilltober2019</a> promts list.",
+  "greetingImage": "../images/chilltober2019-greeting.png",
+  "role": "",
+  "platform": "",
+  "tools": [
+    "Invision Studio",
+    "Adobe After Effects",
+    "Adobe Photoshop"
+  ],
+  "detailsTitle": "A drawing challenge",
+  "detailsText": "Every year, artists from all over the world join the Inktober challenge of draw a daily drawing throughout the month of October. <br><br>Inktober is a challenge that I have always dreamed of doing, but I never felt ready to participate, since I do not consider myself an artist or with any gift for drawing. But I decided to challenge myself and face my fears. So I joined #Chilltober2019, to make that good habit of drawing and lose my fear of trying.<br><br>Something I did to make this challenge more interesting for me was to choose a new tool and see how much I was able to learn in the course of a month.<br><br>For 2019 I chose Invision Studio, since it was a new and quite interesting tool for prototyping interfaces and at the same time adding motion. So I wanted to learn how to use it by making short animated clips.<br><br>And this was the result of this challenge  (or you can watch it on my <a href=\"https://dribbble.com/filaudeves\" target=\"_blank\">Dribbble</a>):",
+  "detailsImage": {},
+  "detailsText2": "",
+  "contributionImage": {},
+  "contributionList": [],
+  "carousels": [
+    {
+      "title": "",
+      "showAsGrid": true,
+      "images": [
+        "../images/chilltober2019/01-chilltober.gif",
+        "../images/chilltober2019/02-chilltober.gif",
+        "../images/chilltober2019/03-chilltober.gif",
+        "../images/chilltober2019/04-chilltober.gif",
+        "../images/chilltober2019/05-chilltober.gif",
+        "../images/chilltober2019/06-chilltober.gif",
+        "../images/chilltober2019/07-chilltober.gif",
+        "../images/chilltober2019/08-chilltober.gif",
+        "../images/chilltober2019/09-chilltober.gif",
+        "../images/chilltober2019/10-chilltober.gif",
+        "../images/chilltober2019/11-chilltober.gif",
+        "../images/chilltober2019/12-chilltober.gif",
+        "../images/chilltober2019/13-chilltober.gif",
+        "../images/chilltober2019/14-chilltober.gif",
+        "../images/chilltober2019/15-chilltober.gif",
+        "../images/chilltober2019/16-chilltober.gif",
+        "../images/chilltober2019/17-chilltober.gif",
+        "../images/chilltober2019/18-chilltober.gif",
+        "../images/chilltober2019/19-chilltober.gif",
+        "../images/chilltober2019/20-chilltober.gif",
+        "../images/chilltober2019/21-chilltober.gif",
+        "../images/chilltober2019/22-chilltober.gif",
+        "../images/chilltober2019/23-chilltober.gif",
+        "../images/chilltober2019/24-chilltober.gif",
+        "../images/chilltober2019/25-chilltober.gif",
+        "../images/chilltober2019/26-chilltober.gif",
+        "../images/chilltober2019/27-chilltober.gif",
+        "../images/chilltober2019/28-chilltober.gif",
+        "../images/chilltober2019/29-chilltober.gif"
+      ]
+    }
+  ]
+}

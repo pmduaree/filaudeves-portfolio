@@ -44,6 +44,7 @@ const ProjectPage = (props) => {
           <ProjectCarousel
             title={carousel.title}
             images={carousel.images}
+            showAsGrid={carousel.showAsGrid}
           />
         </section>
       ))}

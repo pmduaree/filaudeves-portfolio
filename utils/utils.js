@@ -8,7 +8,8 @@ export const arrayIntoSectionsOfTwo = (elements) => {
     }
     arrayInTwo[arrayInTwo.length - 1].push(element)
   });
-  return arrayInTwo
+  console.log(arrayInTwo);
+  return arrayInTwo;
 };
 
 export const filterProjects = (currentProjectType) => {

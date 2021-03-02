@@ -26,6 +26,7 @@
   "carousels": [
     {
       "title": "Screens of MedApp",
+      "showAsGrid": false,
       "images": [
         "../images/medical-app-carousel-0.png",
         "../images/medical-app-carousel-1.png",

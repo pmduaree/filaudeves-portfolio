@@ -16,6 +16,18 @@
     line-height: 28px;
 }
 
+.greetingText a {
+    font-size: 20px;
+    line-height: 28px;
+    color: #5368E0;
+}
+
+.greetingText a:hover {
+    cursor: pointer;
+    color: #5368E0;
+    border-bottom: 1px solid #5368E0;
+}
+
 .introductionText {
     margin-top: 30px;
 }

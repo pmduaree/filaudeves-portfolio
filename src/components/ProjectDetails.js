@@ -11,12 +11,14 @@ const ProjectDetails = ({detailsTitle, detailsText, detailsImage, detailsText2})
           <div className={style.detailsText} dangerouslySetInnerHTML={{__html: detailsText}}/>
         </div>
       </div>
-      <div className={'row'}>
+      {detailsImage && (
+        <div className={'row'}>
         <div className={'two columns'}>&nbsp;</div>
         <div className={'eight columns'}>
           <img className={style.detailsImage} src={detailsImage.publicURL}/>
         </div>
-      </div>
+        </div>
+      )}
       <div className={'row'}>
         <div className={'one column'}>&nbsp;</div>
         <div className={'ten columns'}>
