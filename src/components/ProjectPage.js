@@ -48,6 +48,15 @@ const ProjectPage = (props) => {
           />
         </section>
       ))}
+      {workData.moreInformation.map((moreInformation, index) => (
+        <section key={index}>
+          <ProjectDetails
+            detailsTitle={moreInformation.title}
+            detailsText={moreInformation.description}
+            detailsImage={moreInformation.image}
+          />
+        </section>
+      ))}
     </Layout>
   )
 };

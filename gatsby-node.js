@@ -47,6 +47,13 @@ exports.createPages = ({graphql, actions}) => {
               publicURL
             }
           }
+          moreInformation {
+            title
+            description
+            image {
+              publicURL
+            }
+          }
         }
       }
     }

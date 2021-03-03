@@ -7,18 +7,25 @@ import retrospectivesImg from "../images/retrospectives.png";
 import microsoftDynamicsImg from "../images/microsoft-dynamics.png";
 import chilltober2019Img from "../images/chilltober2019.png";
 import peachtober2020Img from "../images/peachtober2020.png";
+import cloudServiceImg from "../images/cloud-service.png";
 
 export const PROJECTS = [
   {
-    id: 'chilltober2019',
-    name: 'Chilltober 2019',
-    imageUrl: chilltober2019Img,
-    subtitle: 'Miscellaneous',
-    type: 'MISC'
-  },{
     id: 'peachtober2020',
     name: 'Peachtober 2020',
     imageUrl: peachtober2020Img,
+    subtitle: 'Miscellaneous',
+    type: 'MISC'
+  },{
+    id: 'cloud-service',
+    name: 'Cloud Service',
+    imageUrl: cloudServiceImg,
+    subtitle: 'Product Design',
+    type: 'DESKTOP'
+  },{
+    id: 'chilltober2019',
+    name: 'Chilltober 2019',
+    imageUrl: chilltober2019Img,
     subtitle: 'Miscellaneous',
     type: 'MISC'
   },{

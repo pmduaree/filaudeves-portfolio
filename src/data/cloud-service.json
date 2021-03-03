@@ -1,0 +1,43 @@
+{
+  "id": "cloud-service",
+  "title": "Cloud Backup Service",
+  "subtitle": "Product Design",
+  "greetingText": "A powerful backup tool that keeps your emails safe at all times with the ability to restore them in any emergency.",
+  "greetingImage": "../images/cloud-service-greeting.png",
+  "role": "UX/UI Designer",
+  "platform": "Web platform",
+  "tools": [
+    "Sketch",
+    "Invision",
+    "Adobe Cloud",
+    "Abstract"
+  ],
+  "detailsTitle": "Problem: An incredible tool with no retention rate",
+  "detailsText": "Cloud Service is a tool that allows large companies to back up their information in the cloud, offering protection against blackmail or information theft.<br>Despite the great advantages, few companies saw the value or decided to buy the competitor's service. <br>This reason was enough to do some research and find the root cause of the high churn rate.",
+  "detailsImage": {},
+  "detailsText2": "",
+  "contributionImage": "../images/cloud-service-contribution.png",
+  "contributionList": [
+    "Create a research plan",
+    "Run User Interviews",
+    "Document research",
+    "Low fidelity mockups for User testing",
+    "High fidelity mockups and prototype"
+  ],
+  "carousels": [],
+  "moreInformation": [
+    {
+      "title": "Research",
+      "description": "At the beginning of the project, the stakeholders set the goal to increase the number of retained users after their trial period expired.<br><br>The first step was to request sales team to explain the process by which someone requests a trial. It was straighforward, beggining with the business requesting a trial, schedule a meeting, show a demo of the product features, and then they liberated the trial license. <br><br>Later, they found a bottleneck in the process: after 15 days of trial, the users never returned to the platform. <br><br>With this information, we defined 4 different type of users we wanted to interview: current users, users using similar brands, users who abandoned the trial and prospects. ",
+      "image": "../images/cloud-service-more-information-1.png"
+    },{
+      "title": "",
+      "description": "After the interviews, we dumped insights into an affinity diagram, in order to identify crucial product touchpoints and patterns.<br>At this point we began to understand what was happening in this 15-day trial process.<br><br>Since we had everything clear with the affinity, we translated all the findings into a journey map, where it was clear to see the ups and downs of the user experience. <br><br>The last step was creating scenarios that helped us to be clear about the goals that users had when using Cloud Service, and how we could meet their expectations. ",
+      "image": "../images/cloud-service-more-information-2.png"
+    },{
+      "title": "Solution",
+      "description": "Our main proposal is providing a propert onboarding to the system and support from the sales team. For the end user the interaction with their vendor was crucial.<br>We schedule a first meeting to the user, then explain how to easily configure the backup and clear any questions about the process. <br><br><br>Another unexpected insight we found was the missinformation customers had when storing data in the cloud. At first, they did not see the necessity to buy a cloud backup service, because they believed the data in the cloud was secure. <br>We have the job of educating customers to see this benefit.",
+      "image": {}
+    }
+  ]
+}
