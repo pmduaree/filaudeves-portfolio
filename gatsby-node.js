@@ -43,6 +43,10 @@ exports.createPages = ({graphql, actions}) => {
           carousels {
             title
             showAsGrid
+            gridSize {
+              width
+              height
+            }
             images {
               publicURL
             }

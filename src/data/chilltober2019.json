@@ -21,6 +21,10 @@
     {
       "title": "",
       "showAsGrid": true,
+      "gridSize": {
+        "height": 281,
+        "width": 375
+      },
       "images": [
         "../images/chilltober2019/01-chilltober.gif",
         "../images/chilltober2019/02-chilltober.gif",

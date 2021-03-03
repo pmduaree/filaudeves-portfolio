@@ -28,6 +28,7 @@
     {
       "title": "Screens of Agile Retrospectives",
       "showAsGrid": false,
+      "gridSize": {},
       "images": [
         "../images/retrospectives-carousel-0.png",
         "../images/retrospectives-carousel-1.png",

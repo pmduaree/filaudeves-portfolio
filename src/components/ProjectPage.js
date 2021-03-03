@@ -41,10 +41,11 @@ const ProjectPage = (props) => {
       </section>
       {workData.carousels.map((carousel, index) => (
         <section key={index}>
-          <ProjectCarousel
+        <ProjectCarousel
             title={carousel.title}
             images={carousel.images}
             showAsGrid={carousel.showAsGrid}
+            gridSize={carousel.gridSize}
           />
         </section>
       ))}

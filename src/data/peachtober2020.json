@@ -20,6 +20,10 @@
     {
       "title": "",
       "showAsGrid": true,
+      "gridSize": {
+        "height": 375,
+        "width": 375
+      },
       "images": [
         "../images/peachtober2020/01-peachtober.png",
         "../images/peachtober2020/02-peachtober.png",

@@ -26,6 +26,7 @@
     {
       "title": "Screens of Stand-Bot",
       "showAsGrid": false,
+      "gridSize": {},
       "images": [
         "../images/stand-bot-carousel-0.png",
         "../images/stand-bot-carousel-1.png",
